@@ -1,0 +1,32 @@
+{
+    "name"  : "hilerchyn/GatewayWorkerCI",
+    "type"  : "project",
+    "keywords": ["event-loop", "asynchronous", "workerman", "GatewayWorker", "CI", "CodeIgniter"],
+    "homepage": "https://github.com/hilerchyn/GatewayWorkerCI",
+    "license" : "MIT",
+    "description": "A framework of Workerman for CodeIgniter.",
+    "authors" : [
+        {
+            "name"      : "hilerchyn",
+            "email"     : "hilerchyn@gmail.com",
+            "homepage"  : "https://github.com/hilerchyn",	
+            "role": "Developer"
+        }
+    ],
+    "support" : {
+        "email" : "hilerchyn@gmail.com",
+        "issues": "https://github.com/hilerchyn/GatewayWorkerCI/issues",
+        "wiki"  : "https://github.com/hilerchyn/GatewayWorkerCI/wiki",
+        "source": "https://github.com/hilerchyn/GatewayWorkerCI"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "suggest": {
+	"ext-libevent": "For better performance."
+    },
+    "autoload": {
+        "psr-4": {"GatewayWorkerCI\\": "./"}
+    },
+    "minimum-stability":"dev"
+}
