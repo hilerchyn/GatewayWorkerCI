@@ -1,5 +1,5 @@
 {
-    "name"  : "hilerchyn/GatewayWorkerCI",
+    "name"  : "hilerchyn/gatewayworkerci",
     "type"  : "project",
     "keywords": ["event-loop", "asynchronous", "workerman", "GatewayWorker", "CI", "CodeIgniter"],
     "homepage": "https://github.com/hilerchyn/GatewayWorkerCI",
